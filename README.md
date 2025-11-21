@@ -53,14 +53,17 @@ A mini RIS-like workflow:
 
 Add radiologist notes
 Approve or reject the AI report
-If rejected — choose a reason (image quality, model misclassification, etc.)
+
+If rejected, choose a reason (image quality, model misclassification, etc.)
+
 Approved reports - /reports/validated/
+
 Rejected reports - /reports/rejected/
 
 This mimics how real radiologists supervise AI outputs.
 
 
-# Live Streamlit Web App
+# Live Streamlit Web App: https://mri-ai-assistant.streamlit.app/
 
 The entire system is deployed using Streamlit Cloud.
 Radiologists can:
@@ -72,3 +75,23 @@ View AI results
 Review and validate the report
 
 Save decisions with notes
+
+# Installation & Running Locally
+- Clone the repo
+- pip install -r requirements.txt
+- streamlit run app.py
+
+# Future Improvements
+
+DICOM support via pydicom
+
+Direct PACS integration (Orthanc server)
+
+Heatmap / Grad-CAM visualization
+
+CNN-based deep learning model
+
+Patient metadata parsing
+
+PDF export of radiologist reports
+
