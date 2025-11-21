@@ -1,0 +1,15 @@
+AI-ASSISTED MRI PRELIMINARY REPORT
+=====================================
+
+Timestamp: 2025-11-19T13:24:11
+
+Input image: image(45).jpg
+
+Predicted tumor type: meningioma_tumor
+Model confidence: 0.52
+
+Important:
+- This is an AI-generated PRELIMINARY report.
+- It is NOT a final diagnosis.
+- A radiologist must review the images, confirm, edit, or reject these findings.
+

@@ -1,0 +1,20 @@
+=== RADIOLOGIST-APPROVED REPORT ===
+
+AI-ASSISTED MRI PRELIMINARY REPORT
+=====================================
+
+Timestamp: 2025-11-19T14:18:33
+
+Input image: temp_uploaded_image.jpg
+
+Predicted tumor type: pituitary_tumor
+Model confidence: 0.87
+
+Important:
+- This is an AI-generated PRELIMINARY report.
+- It is NOT a final diagnosis.
+- A radiologist must review the images, confirm, edit, or reject these findings.
+
+
+Decision: APPROVED
+Radiologist Notes: None
