@@ -1,9 +1,8 @@
 import streamlit as st
-from src.load_data import preprocess_single_image
-from src.report_generator import generate_report
-from src.load_data import CLASS_MAP
 import joblib
 from pathlib import Path
+from src.load_data import preprocess_single_image, CLASS_MAP
+from src.report_generator import generate_report
 
 st.title("MRI Brain Tumor AI Assistant")
 
